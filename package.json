@@ -1,0 +1,21 @@
+{
+	"name": "real_time_communication",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "pm2 start index.js",
+		"stop": "pm2 stop index.js",
+		"logs":"pm2 logs",
+		"restart": "pm2 restart index.js",
+    "monit":"pm2 monit",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.2",
+		"pm2": "^5.3.1",
+		"ws": "^8.16.0"
+	}
+}
